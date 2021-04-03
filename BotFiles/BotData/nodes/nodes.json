@@ -47,8 +47,8 @@
           "inline": "true"
         },
         {
-          "name": "-diposit",
-          "value": "Diposit money in the bank",
+          "name": "-deposit",
+          "value": "Deposit money in the bank",
           "inline": "true"
         },
         {
