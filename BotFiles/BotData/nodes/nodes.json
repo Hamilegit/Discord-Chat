@@ -369,8 +369,8 @@
           "id": "290fcb08-7ba3-4b82-8fd6-6f747e8c98b0"
         }
       ],
-      "x": 508,
-      "y": 308,
+      "x": 507,
+      "y": 307,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
@@ -378,7 +378,7 @@
         "24D430",
         "Modded Server Info",
         "",
-        "Hydra's Haven",
+        "Hydra's Havena",
         "",
         "",
         "",
