@@ -136,7 +136,7 @@
           "id": "e67c95ba-a276-4a53-8b8d-dd5a5963bb17"
         }
       ],
-      "x": 1264,
+      "x": 1280,
       "y": 205,
       "rtype": "Message",
       "rsubtype": "Send Embed",
@@ -219,8 +219,8 @@
           "id": "2663550f-5ea3-4769-bd68-14a0c4d4164e"
         }
       ],
-      "x": 509,
-      "y": 576,
+      "x": 495,
+      "y": 575,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
@@ -297,7 +297,7 @@
           "id": "31f21ad0-8dbe-4319-aedd-48987d9466b6"
         }
       ],
-      "x": 524,
+      "x": 525,
       "y": 103,
       "rtype": "Message",
       "rsubtype": "Send Embed",
@@ -333,6 +333,45 @@
         "saveToVariable",
         "saveToVariableType"
       ]
+    },
+    {
+      "type": "command",
+      "name": "ServerInfo",
+      "guid": "290fcb08-7ba3-4b82-8fd6-6f747e8c98b0",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "29e0b56c-39e0-4c4b-b911-ba7e0259704a"
+          ]
+        }
+      ],
+      "x": 246,
+      "y": 310
+    },
+    {
+      "type": "response",
+      "name": "Server",
+      "guid": "29e0b56c-39e0-4c4b-b911-ba7e0259704a",
+      "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "290fcb08-7ba3-4b82-8fd6-6f747e8c98b0"
+        }
+      ],
+      "x": 505,
+      "y": 313,
+      "rtype": "Message",
+      "rsubtype": "Send Embed"
     }
   ]
 }
