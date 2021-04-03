@@ -351,7 +351,7 @@
       "embedfields": [
         {
           "name": "The following is subject to change.",
-          "value": "IP: dw20.gearhex.net\nMinecraft Version: 1.16.5\nModpack Version: 1.7.0",
+          "value": "IP: dw20.gearhex.net\nMinecraft Version: 1.16.5\nModpack Version: 3.2.3",
           "inline": "true"
         }
       ],
@@ -369,14 +369,14 @@
           "id": "290fcb08-7ba3-4b82-8fd6-6f747e8c98b0"
         }
       ],
-      "x": 507,
-      "y": 307,
+      "x": 504,
+      "y": 306,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
         "806265886084169820",
         "24D430",
-        "Modded Server Info",
+        "Valhelsia 3 Server Info",
         "",
         "Hydra's Haven",
         "",

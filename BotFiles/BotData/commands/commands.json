@@ -203,13 +203,13 @@
           "fields": [
             {
               "name": "The following is subject to change.",
-              "value": "IP: dw20.gearhex.net\nMinecraft Version: 1.16.5\nModpack Version: 1.7.0",
+              "value": "IP: dw20.gearhex.net\nMinecraft Version: 1.16.5\nModpack Version: 3.2.3",
               "inline": "true"
             }
           ],
           "channelname": "806265886084169820",
           "color": "24D430",
-          "title": "Modded Server Info",
+          "title": "Valhelsia 3 Server Info",
           "url": "",
           "authorname": "Hydra's Haven",
           "authorimageurl": "",
