@@ -195,7 +195,34 @@
     },
     {
       "name": "ServerInfo",
-      "actions": []
+      "actions": [
+        {
+          "name": "Server",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "The following is subject to change.",
+              "value": "IP: dw20.gearhex.net\nMinecraft Version: 1.16.5\nModpack Version: 1.7.0",
+              "inline": "true"
+            }
+          ],
+          "channelname": "806265886084169820",
+          "color": "24D430",
+          "title": "Server Info",
+          "url": "",
+          "authorname": "Hydra's Haven",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "",
+          "thumbnail": "https://cdn.discordapp.com/attachments/450860946517262336/827700395848499210/Hydra_Photoshop_Icon_Paper.png",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
     }
   ]
 }

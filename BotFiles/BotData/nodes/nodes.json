@@ -353,7 +353,14 @@
       "type": "response",
       "name": "Server",
       "guid": "29e0b56c-39e0-4c4b-b911-ba7e0259704a",
-      "embedfields": [],
+      "reactionFields": [],
+      "embedfields": [
+        {
+          "name": "The following is subject to change.",
+          "value": "IP: dw20.gearhex.net\nMinecraft Version: 1.16.5\nModpack Version: 1.7.0",
+          "inline": "true"
+        }
+      ],
       "saveToVariable": "",
       "saveToVariableType": "temp",
       "outputs": [
@@ -368,10 +375,42 @@
           "id": "290fcb08-7ba3-4b82-8fd6-6f747e8c98b0"
         }
       ],
-      "x": 505,
-      "y": 313,
+      "x": 508,
+      "y": 310,
       "rtype": "Message",
-      "rsubtype": "Send Embed"
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "806265886084169820",
+        "24D430",
+        "Server Info",
+        "",
+        "Hydra's Haven",
+        "",
+        "",
+        "",
+        "https://cdn.discordapp.com/attachments/450860946517262336/827700395848499210/Hydra_Photoshop_Icon_Paper.png",
+        "",
+        "",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
     }
   ]
 }
