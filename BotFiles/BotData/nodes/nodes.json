@@ -143,9 +143,9 @@
       "formdata": [
         "799076107793989632",
         "24D430",
+        "Commands for #bot-shenanigans",
+        "",
         "Hydra's Haven",
-        "",
-        "",
         "",
         "",
         "Here are a list of commands you can use is this channel",
@@ -226,9 +226,9 @@
       "formdata": [
         "${dbsVars.CommandChannel.id}",
         "24D430",
+        "Streamers",
+        "",
         "Hydra's Haven",
-        "",
-        "",
         "",
         "",
         "Here are our streamers",
