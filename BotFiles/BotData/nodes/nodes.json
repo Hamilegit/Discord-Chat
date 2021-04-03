@@ -122,8 +122,6 @@
           "inline": "true"
         }
       ],
-      "saveToVariable": "",
-      "saveToVariableType": "temp",
       "outputs": [
         {
           "label": "next response",
@@ -205,8 +203,6 @@
           "inline": "false"
         }
       ],
-      "saveToVariable": "",
-      "saveToVariableType": "temp",
       "outputs": [
         {
           "label": "next response",
@@ -283,8 +279,6 @@
           "inline": "true"
         }
       ],
-      "saveToVariable": "",
-      "saveToVariableType": "temp",
       "outputs": [
         {
           "label": "next response",
@@ -347,7 +341,7 @@
         }
       ],
       "x": 246,
-      "y": 310
+      "y": 308
     },
     {
       "type": "response",
@@ -376,19 +370,19 @@
         }
       ],
       "x": 508,
-      "y": 310,
+      "y": 308,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
         "806265886084169820",
         "24D430",
-        "Server Info",
+        "Modded Server Info",
         "",
         "Hydra's Haven",
         "",
         "",
         "",
-        "https://cdn.discordapp.com/attachments/450860946517262336/827700395848499210/Hydra_Photoshop_Icon_Paper.png",
+        "https://cdn.discordapp.com/attachments/450860946517262336/827921837727809548/637307875703147764.png",
         "",
         "",
         "false",
