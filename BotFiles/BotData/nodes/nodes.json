@@ -8,12 +8,12 @@
         {
           "label": "responses",
           "connections": [
-            "364df873-5a0a-431c-8eeb-4726327d6db3"
+            "249b5d8c-a1f1-4ded-9983-9c490a0ba5f5"
           ]
         }
       ],
-      "x": 247,
-      "y": 208
+      "x": 255,
+      "y": 103
     },
     {
       "type": "response",
@@ -122,6 +122,8 @@
           "inline": "true"
         }
       ],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
       "outputs": [
         {
           "label": "next response",
@@ -131,11 +133,11 @@
       "inputs": [
         {
           "label": "trigger",
-          "id": "31f21ad0-8dbe-4319-aedd-48987d9466b6"
+          "id": "e67c95ba-a276-4a53-8b8d-dd5a5963bb17"
         }
       ],
-      "x": 500,
-      "y": 209,
+      "x": 1264,
+      "y": 205,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
@@ -147,7 +149,7 @@
         "",
         "",
         "Here are a list of commands you can use is this channel",
-        "",
+        "https://cdn.discordapp.com/attachments/450860946517262336/827700395848499210/Hydra_Photoshop_Icon_Paper.png",
         "",
         "",
         "false",
@@ -183,8 +185,8 @@
           ]
         }
       ],
-      "x": 243,
-      "y": 348
+      "x": 236,
+      "y": 575
     },
     {
       "type": "response",
@@ -203,6 +205,8 @@
           "inline": "false"
         }
       ],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
       "outputs": [
         {
           "label": "next response",
@@ -215,8 +219,8 @@
           "id": "2663550f-5ea3-4769-bd68-14a0c4d4164e"
         }
       ],
-      "x": 503,
-      "y": 347,
+      "x": 509,
+      "y": 576,
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
@@ -228,7 +232,85 @@
         "",
         "",
         "Here are our streamers",
+        "https://cdn.discordapp.com/attachments/450860946517262336/827700395848499210/Hydra_Photoshop_Icon_Paper.png",
         "",
+        "",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "commands",
+      "guid": "e67c95ba-a276-4a53-8b8d-dd5a5963bb17",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "364df873-5a0a-431c-8eeb-4726327d6db3"
+          ]
+        }
+      ],
+      "x": 919,
+      "y": 207
+    },
+    {
+      "type": "response",
+      "name": "help_menu_2",
+      "guid": "249b5d8c-a1f1-4ded-9983-9c490a0ba5f5",
+      "reactionFields": [],
+      "embedfields": [
+        {
+          "name": "this is a work in progress",
+          "value": "WIP",
+          "inline": "true"
+        }
+      ],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "31f21ad0-8dbe-4319-aedd-48987d9466b6"
+        }
+      ],
+      "x": 524,
+      "y": 103,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "24D430",
+        "Help commands",
+        "",
+        "Hydra's Haven",
+        "",
+        "",
+        "Here you can see our commands for various channels and some general commands to.",
+        "https://cdn.discordapp.com/attachments/450860946517262336/827700395848499210/Hydra_Photoshop_Icon_Paper.png",
         "",
         "",
         "false",

@@ -4,6 +4,73 @@
       "name": "help",
       "actions": [
         {
+          "name": "help_menu_2",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "this is a work in progress",
+              "value": "WIP",
+              "inline": "true"
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "24D430",
+          "title": "Help commands",
+          "url": "",
+          "authorname": "Hydra's Haven",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Here you can see our commands for various channels and some general commands to.",
+          "thumbnail": "https://cdn.discordapp.com/attachments/450860946517262336/827700395848499210/Hydra_Photoshop_Icon_Paper.png",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "twitch",
+      "actions": [
+        {
+          "name": "Streamers",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Huggleton Gaming",
+              "value": "Twitch - https://www.twitch.tv/huggletongaming\nDiscord - https://discord.com/invite/bWXfYHC4Jm",
+              "inline": "false"
+            },
+            {
+              "name": "Deaths Angel",
+              "value": "Twitch - https://www.twitch.tv/deaths_angel01 \nDiscord - https://discord.com/invite/4M2CUkWgtD",
+              "inline": "false"
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "24D430",
+          "title": "Hydra's Haven",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Here are our streamers",
+          "thumbnail": "https://cdn.discordapp.com/attachments/450860946517262336/827700395848499210/Hydra_Photoshop_Icon_Paper.png",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "commands",
+      "actions": [
+        {
           "name": "help_menu_1",
           "category": "Message",
           "type": "Send Embed",
@@ -117,43 +184,7 @@
           "authorimageurl": "",
           "authorlink": "",
           "description": "Here are a list of commands you can use is this channel",
-          "thumbnail": "",
-          "image": "",
-          "footer": "",
-          "timestamp": "false",
-          "savetovariable": "",
-          "savetovariabletype": "temp"
-        }
-      ]
-    },
-    {
-      "name": "twitch",
-      "actions": [
-        {
-          "name": "Streamers",
-          "category": "Message",
-          "type": "Send Embed",
-          "fields": [
-            {
-              "name": "Huggleton Gaming",
-              "value": "Twitch - https://www.twitch.tv/huggletongaming\nDiscord - https://discord.com/invite/bWXfYHC4Jm",
-              "inline": "false"
-            },
-            {
-              "name": "Deaths Angel",
-              "value": "Twitch - https://www.twitch.tv/deaths_angel01 \nDiscord - https://discord.com/invite/4M2CUkWgtD",
-              "inline": "false"
-            }
-          ],
-          "channelname": "${dbsVars.CommandChannel.id}",
-          "color": "24D430",
-          "title": "Hydra's Haven",
-          "url": "",
-          "authorname": "",
-          "authorimageurl": "",
-          "authorlink": "",
-          "description": "Here are our streamers",
-          "thumbnail": "",
+          "thumbnail": "https://cdn.discordapp.com/attachments/450860946517262336/827700395848499210/Hydra_Photoshop_Icon_Paper.png",
           "image": "",
           "footer": "",
           "timestamp": "false",
