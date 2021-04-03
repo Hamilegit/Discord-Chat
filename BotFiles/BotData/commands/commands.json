@@ -1,0 +1,166 @@
+{
+  "command": [
+    {
+      "name": "help",
+      "actions": [
+        {
+          "name": "help_menu_1",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "-----------------------------------------------------------------------------------------",
+              "value": "Economy",
+              "inline": "false"
+            },
+            {
+              "name": "-work",
+              "value": "Get money every 10 minutes",
+              "inline": "true"
+            },
+            {
+              "name": "-slut",
+              "value": "Get money every 15 minutes",
+              "inline": "true"
+            },
+            {
+              "name": "-crime",
+              "value": "Get money every 30 minutes",
+              "inline": "true"
+            },
+            {
+              "name": "-rob",
+              "value": "Get money by robbing @user",
+              "inline": "true"
+            },
+            {
+              "name": "-diposit",
+              "value": "Diposit money in the bank",
+              "inline": "true"
+            },
+            {
+              "name": "-withdraw",
+              "value": "Withdraw money from the back.",
+              "inline": "true"
+            },
+            {
+              "name": "-----------------------------------------------------------------------------------------",
+              "value": "World Clock",
+              "inline": "false"
+            },
+            {
+              "name": "tz.help",
+              "value": "Full list of commands plus wikipedia.",
+              "inline": "true"
+            },
+            {
+              "name": "tz.list",
+              "value": "Lists existing submitted times.",
+              "inline": "true"
+            },
+            {
+              "name": "tz.set [zone]",
+              "value": "Use wikipedia page to find you local time zone.",
+              "inline": "true"
+            },
+            {
+              "name": "tz.remove",
+              "value": "Remove your name from the bot.",
+              "inline": "true"
+            },
+            {
+              "name": "-----------------------------------------------------------------------------------------",
+              "value": "Games",
+              "inline": "false"
+            },
+            {
+              "name": "!aki",
+              "value": "Play around with the Akinator bot.",
+              "inline": "false"
+            },
+            {
+              "name": "-never-have-i-ever",
+              "value": "Never Have I Ever",
+              "inline": "true"
+            },
+            {
+              "name": "-truth-or-dare",
+              "value": "Truth or Dare",
+              "inline": "true"
+            },
+            {
+              "name": "-blackjack",
+              "value": "Blackjack (bet)",
+              "inline": "true"
+            },
+            {
+              "name": "-roulette",
+              "value": "Roulette (bet) (space)",
+              "inline": "true"
+            },
+            {
+              "name": "-russian-roulette",
+              "value": "Russian Roulette (bet)",
+              "inline": "true"
+            },
+            {
+              "name": "-cock-fight",
+              "value": "Cock Fight (bet)",
+              "inline": "true"
+            }
+          ],
+          "channelname": "799076107793989632",
+          "color": "24D430",
+          "title": "Hydra's Haven",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Here are a list of commands you can use is this channel",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "twitch",
+      "actions": [
+        {
+          "name": "Streamers",
+          "category": "Message",
+          "type": "Send Embed",
+          "fields": [
+            {
+              "name": "Huggleton Gaming",
+              "value": "Twitch - https://www.twitch.tv/huggletongaming\nDiscord - https://discord.com/invite/bWXfYHC4Jm",
+              "inline": "false"
+            },
+            {
+              "name": "Deaths Angel",
+              "value": "Twitch - https://www.twitch.tv/deaths_angel01 \nDiscord - https://discord.com/invite/4M2CUkWgtD",
+              "inline": "false"
+            }
+          ],
+          "channelname": "${dbsVars.CommandChannel.id}",
+          "color": "24D430",
+          "title": "Hydra's Haven",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "Here are our streamers",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "false",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    }
+  ]
+}

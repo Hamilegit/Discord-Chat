@@ -1,0 +1,256 @@
+{
+  "nodes": [
+    {
+      "type": "command",
+      "name": "help",
+      "guid": "31f21ad0-8dbe-4319-aedd-48987d9466b6",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "364df873-5a0a-431c-8eeb-4726327d6db3"
+          ]
+        }
+      ],
+      "x": 247,
+      "y": 208
+    },
+    {
+      "type": "response",
+      "name": "help_menu_1",
+      "guid": "364df873-5a0a-431c-8eeb-4726327d6db3",
+      "reactionFields": [],
+      "embedfields": [
+        {
+          "name": "-----------------------------------------------------------------------------------------",
+          "value": "Economy",
+          "inline": "false"
+        },
+        {
+          "name": "-work",
+          "value": "Get money every 10 minutes",
+          "inline": "true"
+        },
+        {
+          "name": "-slut",
+          "value": "Get money every 15 minutes",
+          "inline": "true"
+        },
+        {
+          "name": "-crime",
+          "value": "Get money every 30 minutes",
+          "inline": "true"
+        },
+        {
+          "name": "-rob",
+          "value": "Get money by robbing @user",
+          "inline": "true"
+        },
+        {
+          "name": "-diposit",
+          "value": "Diposit money in the bank",
+          "inline": "true"
+        },
+        {
+          "name": "-withdraw",
+          "value": "Withdraw money from the back.",
+          "inline": "true"
+        },
+        {
+          "name": "-----------------------------------------------------------------------------------------",
+          "value": "World Clock",
+          "inline": "false"
+        },
+        {
+          "name": "tz.help",
+          "value": "Full list of commands plus wikipedia.",
+          "inline": "true"
+        },
+        {
+          "name": "tz.list",
+          "value": "Lists existing submitted times.",
+          "inline": "true"
+        },
+        {
+          "name": "tz.set [zone]",
+          "value": "Use wikipedia page to find you local time zone.",
+          "inline": "true"
+        },
+        {
+          "name": "tz.remove",
+          "value": "Remove your name from the bot.",
+          "inline": "true"
+        },
+        {
+          "name": "-----------------------------------------------------------------------------------------",
+          "value": "Games",
+          "inline": "false"
+        },
+        {
+          "name": "!aki",
+          "value": "Play around with the Akinator bot.",
+          "inline": "false"
+        },
+        {
+          "name": "-never-have-i-ever",
+          "value": "Never Have I Ever",
+          "inline": "true"
+        },
+        {
+          "name": "-truth-or-dare",
+          "value": "Truth or Dare",
+          "inline": "true"
+        },
+        {
+          "name": "-blackjack",
+          "value": "Blackjack (bet)",
+          "inline": "true"
+        },
+        {
+          "name": "-roulette",
+          "value": "Roulette (bet) (space)",
+          "inline": "true"
+        },
+        {
+          "name": "-russian-roulette",
+          "value": "Russian Roulette (bet)",
+          "inline": "true"
+        },
+        {
+          "name": "-cock-fight",
+          "value": "Cock Fight (bet)",
+          "inline": "true"
+        }
+      ],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "31f21ad0-8dbe-4319-aedd-48987d9466b6"
+        }
+      ],
+      "x": 500,
+      "y": 209,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "799076107793989632",
+        "24D430",
+        "Hydra's Haven",
+        "",
+        "",
+        "",
+        "",
+        "Here are a list of commands you can use is this channel",
+        "",
+        "",
+        "",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "twitch",
+      "guid": "2663550f-5ea3-4769-bd68-14a0c4d4164e",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "4b521956-be12-4ecc-aa77-140dc9820cb4"
+          ]
+        }
+      ],
+      "x": 243,
+      "y": 348
+    },
+    {
+      "type": "response",
+      "name": "Streamers",
+      "guid": "4b521956-be12-4ecc-aa77-140dc9820cb4",
+      "reactionFields": [],
+      "embedfields": [
+        {
+          "name": "Huggleton Gaming",
+          "value": "Twitch - https://www.twitch.tv/huggletongaming\nDiscord - https://discord.com/invite/bWXfYHC4Jm",
+          "inline": "false"
+        },
+        {
+          "name": "Deaths Angel",
+          "value": "Twitch - https://www.twitch.tv/deaths_angel01 \nDiscord - https://discord.com/invite/4M2CUkWgtD",
+          "inline": "false"
+        }
+      ],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "2663550f-5ea3-4769-bd68-14a0c4d4164e"
+        }
+      ],
+      "x": 503,
+      "y": 347,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "${dbsVars.CommandChannel.id}",
+        "24D430",
+        "Hydra's Haven",
+        "",
+        "",
+        "",
+        "",
+        "Here are our streamers",
+        "",
+        "",
+        "",
+        "false",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    }
+  ]
+}
