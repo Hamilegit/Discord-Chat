@@ -93,6 +93,8 @@
       "guid": "6289c096-4f62-43d1-acf9-fac68f838804",
       "reactionFields": [],
       "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
       "outputs": [
         {
           "label": "next response",
@@ -110,7 +112,7 @@
       "rtype": "Message",
       "rsubtype": "Send Embed",
       "formdata": [
-        "789674447648456724",
+        "828296711830896660",
         "24D430",
         "Welcome to Hydra's Haven! ",
         "",
@@ -148,6 +150,8 @@
       "guid": "8cef6cfe-e973-4d4a-9b70-b93bc5b0bb96",
       "reactionFields": [],
       "embedfields": [],
+      "saveToVariable": "",
+      "saveToVariableType": "temp",
       "outputs": [
         {
           "label": "next response",
@@ -165,7 +169,7 @@
       "rtype": "Message",
       "rsubtype": "Send Message",
       "formdata": [
-        "789674447648456724",
+        "828296711830896660",
         "<@${tempVars.newuser.id}>, you are the **$$MemberCount$$** user!",
         "",
         "temp"

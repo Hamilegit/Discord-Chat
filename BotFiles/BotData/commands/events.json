@@ -8,7 +8,7 @@
           "name": "Join Response Initial",
           "category": "Message",
           "type": "Send Message",
-          "channelname": "789674447648456724",
+          "channelname": "828296711830896660",
           "messagetext": "<@${tempVars.newuser.id}>, you are the **$$MemberCount$$** user!",
           "savetovariable": "",
           "savetovariabletype": "temp"
@@ -17,7 +17,7 @@
           "name": "Join Response",
           "category": "Message",
           "type": "Send Embed",
-          "channelname": "789674447648456724",
+          "channelname": "828296711830896660",
           "color": "24D430",
           "title": "Welcome to Hydra's Haven! ",
           "url": "",
