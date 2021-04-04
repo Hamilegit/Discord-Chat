@@ -214,12 +214,12 @@
             {
               "name": "FTB Ranks",
               "value": "https://www.curseforge.com/minecraft/mc-mods/ftb-ranks/files/3200263",
-              "inline": "true"
+              "inline": "false"
             },
             {
               "name": "FTB Chunks",
               "value": "https://www.curseforge.com/minecraft/mc-mods/ftb-chunks/files/3248884",
-              "inline": "true"
+              "inline": "false"
             },
             {
               "name": "FTB GUI Library",
@@ -229,7 +229,7 @@
             {
               "name": "",
               "value": "Download and add them to your pack.\n\nHappy Gaming",
-              "inline": "true"
+              "inline": "false"
             }
           ],
           "channelname": "806265886084169820",
